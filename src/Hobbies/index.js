@@ -1,33 +1,22 @@
 import React from "react";
 import "./hobbies.css";
-
 export default function Hobbies() {
   return (
     <>
       {" "}
-      <div className="content">
-        <h2>Apresentação</h2>
-
-        <p id="missao">
-          Meu nome é{" "}
-          <em>
-            <strong>Brenda de Oliveira Alves</strong>
-          </em>{" "}
-          e eu estou cursando o terceiro ano do ensino médio no UNASP que possui
-          o curso de T.I implementado
-        </p>
-        <p id="missao">
-          Moro com a minha mãe, meu padastro e meu irmão mais novo
-        </p>
-        <p id="missao">
-          <em></em>Meu sonho é trabalhar e ter dinheiro o suficiente para viver
-          sozinha, auxiliar a minha mãe e ter uma vida boa e tranquila
-        </p>
-        <p id="missao">
-          <em></em>Minha maior dificuldade é decidir o que fazer na faculdade,
-          por esse motivo eu prefiro fazer um curso que forneça mais opções de
-          emprego no futuro
-        </p>
+      <div class="content">
+        <h2>Hobbies</h2>
+        <ul>
+          <font size="4" face="Times">
+            <li> Assistir animes </li>
+            <li> Assistir doramas</li>
+            <li> Ler livros</li>
+            <li>Ler mangás e manhwas</li>
+            <li> Jogar vídeo game</li>
+            <li> Jogar vôlei </li>
+            <li> Escutar K-pop</li>
+          </font>
+        </ul>
       </div>
     </>
   );
