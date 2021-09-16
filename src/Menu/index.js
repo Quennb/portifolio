@@ -7,17 +7,20 @@ export default function Menu() {
       <h1> Menu principal </h1>
       <nav>
         <ul>
-          <NavLink to="/hobbies">Hobbies</NavLink>
-          <p>
-            {" "}
+          <li>
             <NavLink to="/apresentação">Apresentação</NavLink>
-          </p>
-          <p>
-            <NavLink to="/contato">Contato</NavLink>
-          </p>
-          <p>
+          </li>{" "}
+          <li>
+            <NavLink to="/hobbies">Hobbies</NavLink>
+          </li>
+          <li>
+            {" "}
             <NavLink to="/habilidades">Habilidades</NavLink>
-          </p>
+          </li>
+          <li>
+            {" "}
+            <NavLink to="/contato">Contato</NavLink>
+          </li>
         </ul>
       </nav>
     </div>

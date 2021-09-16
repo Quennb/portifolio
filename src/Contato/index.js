@@ -7,7 +7,7 @@ export default function Contato() {
       <ul>
         <font size="4" face="Times">
           <li> Telefone: 11 96458-5048 </li>
-          <li> Telefone fixo: 5824-9562 </li>
+          <li> Telefone fixo: 5824-9565 </li>
           <li> E-mail: bredaalveslves35@gmail.com</li>
           <li> Facebook: Brenda Oliveira</li>
         </font>
